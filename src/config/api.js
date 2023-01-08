@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: `b42-dewetour-be-mysql-production.up.railway.app/api/v1`,
+  baseURL: `https://b42-dewetour-be-mysql-production.up.railway.app/api/v1`,
 });
 
 export const setAuthToken = (token) => {
